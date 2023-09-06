@@ -1,8 +1,8 @@
-Description
+#Description
 
 ASP.NET Core MVC 5 ile birlikte admin paneli olan,register paneli olan bir portfolyo çalışması gerçekleştirdim.Burada kullandığım veritabanı gibi diğer teknolojileri aşağıda inceleyebilirsiniz.Keyifli Kodlamalar <3
 
-Tecnologies
+#Tecnologies
 
 Asp.Net Mvc
 
@@ -22,14 +22,14 @@ SQL Server
 ![4](https://github.com/KeremD22/Portfolio/assets/126280188/80f6c89b-5270-4636-b6d5-12c9512ab7fb)
 
 
-Instalation
+#Instalation
 
 Klonlamak için:
 
 git clone https://github.com/KeremD22/Portfolio.git 
 PROJEYE HAKİM OLMAK İÇİN:SQL SERVER'INIZDAKİ CONNECTİON STRİNG'İNİ DEĞİŞTİREBİLİRSİNİZ.
 
-Using
+#Using
 
 Register olmak için öncelikle /Register eklemeniz gerekmektedir.Daha sonrasında Login sayfasına yönlendirileceksiniz
 
