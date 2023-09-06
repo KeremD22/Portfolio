@@ -1,0 +1,19 @@
+﻿@model Portfolio.Models.Experience
+@{
+    ViewBag.Title = "UpdateExperience";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Deneyim Günceleme Sayfası</h2>
+
+<form method="post">
+    <label>Deneyim ID</label>
+    @Html.TextBoxFor(x => x.ExperienceID, new { @class = "form-control" })
+<label>Deneyim</label>
+    @Html.TextBoxFor(x => x.ExperienceName, new { @class = "form-control" })
+<label>Deneyim Ünvan</label>
+    @Html.TextBoxFor(x => x.ExperienceTestimonial, new { @class = "form-control" })
+<label>Deneyim Yılı</label>
+    @Html.TextBoxFor(x => x.ExperienceYear, new { @class = "form-control" })
+    <button class="btn btn-outline-success">Deneyim GÜncelle</button>
+    <br />
+</form>

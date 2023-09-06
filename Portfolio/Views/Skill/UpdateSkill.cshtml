@@ -1,0 +1,22 @@
+﻿@model Portfolio.Models.Skill
+
+@{
+    ViewBag.Title = "UpdateSkill";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h2>Yetenek Günceleme Sayfası</h2>
+
+<form method="post">
+    <label>Yetenek ID</label>
+    @Html.TextBoxFor(x =>x.SkillID, new { @class = "form-control" })
+    <label>Referans İsim Soyisim</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <label>Referans Ünvan</label>
+    @Html.TextBoxFor(x => x.Value, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-outline-success">Yetenek GÜncelle</button>
+    <br />
+</form>
